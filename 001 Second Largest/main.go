@@ -14,8 +14,9 @@ func main() {
 
 // brute force solution
 func secondLargestBruteForce(arr []int) int {
-	// answer will be added
-	return -1
+	//sort in descending order return second element [ only applicable when the array has distinct elements ]
+	//if array has repeated elements then after sorting iterate the array and check the second maximum element if there return it else return -1
+	return arr[1]
 }
 
 // optimal solution
